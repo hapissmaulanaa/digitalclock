@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jam Digital</title>
+    <link rel="stylesheet" href="asset/style.css">
+    <script src="asset/script.js"></script>
+    <!-- <script>
+        function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('clock').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+
+function checkTime(i){
+    if (i<10) {
+        i = "0" + i;
+    }
+    return i;
+}
+    </script> -->
+    
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <p>Sekarang Jam:</p>
+        </div>
+        <span id="hours">00</span>
+        <span>:</span>
+        <span id="minutes">00</span>
+        <span>:</span>
+        <span id="seconds">00</span>
+        <span id="session">AM</span>
+        
+    </div>
+    <div class="footer">
+        <p>Copyright &copy; <b>hapiss-digital_clock</b> 2022</p>
+    </div>
+</body>
+</html>
